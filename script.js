@@ -4,10 +4,10 @@ const input = document.getElementById("input");
 const result = document.getElementById("result");
 
 fetch("https://api.frankfurter.app/currencies")
-// .then((data) =>data.json())
-// .then((data) =>{
-//     display(data);
-// });
+.then((data) =>data.json())
+.then((data) =>{
+    display(data);
+});
 
 // function display(data){
 //     const entries = Object.entries(data);
@@ -19,9 +19,9 @@ fetch("https://api.frankfurter.app/currencies")
 // }
 
 // btn.addEventListener("click", () => {
-//     let currency1 = select[0].value;
-//     let currency2 = select[1].value;
-//     let value = input.value;
+//      let currency1 = select[0].value;
+//      let currency2 = select[1].value;
+//      let value = input.value;
 
 //     if(currency1 != currency2){
 //         convert(currency1, currency2, value);
