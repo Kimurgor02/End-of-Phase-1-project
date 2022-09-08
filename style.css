@@ -48,7 +48,7 @@ select{
     border-radius: 10px;
     border: none;
 }
-/* 
+
 input{
     width: 95%;
     height: 40px;
@@ -60,7 +60,7 @@ input{
     outline: none;
     padding: 0 1em;
 }
-
+/* 
 .btn{
     width: 98%;
     height: 40px;
