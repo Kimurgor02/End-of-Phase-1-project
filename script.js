@@ -3,7 +3,7 @@ const btn = document.getElementById("btn");
 const input = document.getElementById("input");
 const result = document.getElementById("result");
 
-// fetch("https://api.frankfurter.app/currencies")
+fetch("https://api.frankfurter.app/currencies")
 // .then((data) =>data.json())
 // .then((data) =>{
 //     display(data);
