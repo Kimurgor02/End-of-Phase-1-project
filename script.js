@@ -23,12 +23,12 @@ btn.addEventListener("click", () => {
      let currency2 = select[1].value;
      let value = input.value;
 
-//     if(currency1 != currency2){
-//         convert(currency1, currency2, value);
-//     }else{
-//         alert("Choose different currencies !!!")
-//     }
-// });
+    if(currency1 != currency2){
+        convert(currency1, currency2, value);
+    }else{
+        alert("Choose different currencies !!!")
+    }
+});
 
 // function convert(currency1, currency2, value){
 //     const host = "api.frankfurter.app";
