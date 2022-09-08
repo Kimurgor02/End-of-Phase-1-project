@@ -32,12 +32,12 @@ btn.addEventListener("click", () => {
 
 function convert(currency1, currency2, value){
     const host = "api.frankfurter.app";
-//     fetch(
-//         `https://${host}/latest?amount=${value}&from=${currency1}&to=${currency2}`
-//     )
-//     .then((val) => val.json())
-//     .then((val) =>{
-//         console.log(Object.values(val.rates)[0]);
-//         result.value = Object.values(val.rates)[0];
-//     })
+    fetch(
+        `https://${host}/latest?amount=${value}&from=${currency1}&to=${currency2}`
+    )
+    .then((val) => val.json())
+    .then((val) =>{
+        console.log(Object.values(val.rates)[0]);
+        result.value = Object.values(val.rates)[0];
+    })
 }
